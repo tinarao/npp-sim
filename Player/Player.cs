@@ -66,8 +66,8 @@ public partial class Player : CharacterBody3D
 			}
 			else
 			{
-			velocity.X = Mathf.Lerp(velocity.X, direction.X * Speed, (float)delta * 7f);
-			velocity.Z = Mathf.Lerp(velocity.Z, direction.Z * Speed, (float)delta * 7f);
+				velocity.X = Mathf.Lerp(velocity.X, direction.X * Speed, (float)delta * 7f);
+				velocity.Z = Mathf.Lerp(velocity.Z, direction.Z * Speed, (float)delta * 7f);
 			}
 		}
 		else

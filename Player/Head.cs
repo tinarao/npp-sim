@@ -3,7 +3,7 @@ using System;
 
 public partial class Head : Node3D
 {
-	private const float SENSITIVITY = 0.01f;
+	private const float SENSITIVITY = 0.005f;
 	private Camera3D _camera;
 
 
